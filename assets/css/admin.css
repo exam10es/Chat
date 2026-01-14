@@ -1,0 +1,33 @@
+@import url('public.css');
+
+.sidebar {
+    background: var(--dark);
+    color: #fff;
+    padding: 16px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid var(--border);
+    text-align: right;
+}
+
+.badge {
+    padding: 4px 8px;
+    border-radius: 8px;
+    background: var(--secondary);
+    color: #fff;
+}

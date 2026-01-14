@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+    .table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .sidebar {
+        margin-bottom: 16px;
+    }
+}
